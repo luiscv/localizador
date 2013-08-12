@@ -17,9 +17,9 @@ public class localizador {
     /**
      * @param args the command line arguments
      */
-    public String ip(String lala){
+    public String ip(String sip){
             try {  
-          ia = InetAddress.getByName(lala);           
+          ia = InetAddress.getByName(sip);           
             System.out.println("sucesso");
        } catch (Exception e) {  
             
@@ -28,9 +28,9 @@ public class localizador {
                     return ia.getHostName();
         }
     
-    public String host(String lala){
+    public String host(String shost){
            try {  
-          ia = InetAddress.getByName(lala);           
+          ia = InetAddress.getByName(shost);           
             System.out.println("sucesso");
        } catch (Exception e) {  
             
@@ -39,9 +39,9 @@ public class localizador {
                     return ia.getHostAddress();
         }
     
-    public String canonical(String lala){
+    public String canonical(String scanon){
              try {  
-          ia = InetAddress.getByName(lala);           
+          ia = InetAddress.getByName(scanon);           
           
        } catch (Exception e) {  
             
